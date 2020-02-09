@@ -71,7 +71,7 @@ class Checker:
         :param file: filename
         :return: safe:True,dangerous:False
         """
-        suffix = file.split('.')[-1]
+        suffix = file.split('.')[-1].lower()
         for item in self.black_list:
             if item in suffix:
                 return False
