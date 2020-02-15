@@ -30,6 +30,13 @@
 pip install -r requirements.txt
 ```
 
+或
+
+```
+pip3 install wheels/termcolor-1.1.0-py2.py3-none-any.whl
+```
+
+
 ## 使用
 
 ```
